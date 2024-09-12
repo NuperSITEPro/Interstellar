@@ -13,8 +13,8 @@ jobs:
 
       - name: access
         run: |
-          git config --global user.email "nupersite@outlook.com"
-          git config --global user.name "NuperSITEPro"
+           git config --global user.name "${NuperSITEPro}"
+           git config --global user.email "${nupersite@outlook.com}"
 
           
       - name: publish
